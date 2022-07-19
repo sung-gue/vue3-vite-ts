@@ -9,8 +9,10 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
   },
   "dependencies": {
+    "sockjs-client": "^1.6.1",
     "vue": "^3.2.31",
-    "vue-router": "^4.0.14"
+    "vue-router": "^4.0.14",
+    "webstomp-client": "^1.2.6"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.1.0",
